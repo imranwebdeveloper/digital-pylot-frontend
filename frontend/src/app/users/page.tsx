@@ -1,3 +1,9 @@
+import Wrapper from "./Wrapper";
+
 export default function Page() {
-  return <>Hello users</>;
+  return (
+    <div>
+      <Wrapper />
+    </div>
+  );
 }
